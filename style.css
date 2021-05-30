@@ -1060,12 +1060,3 @@ h3 {
   color: grey;
 }
 
-@media screen and (max-width: 550px) {
-.blog_page p a {
-    font-size: 1em;
-  }
-}
-
-.contact_box p a {
-  font-size: 1em;
-}
