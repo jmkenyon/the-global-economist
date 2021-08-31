@@ -1233,7 +1233,7 @@ a {
   .pod_box {
     margin: 0px 5px 20px 15px;
     width: 325px;
-    height: 585px;
+    height: 525px;
   }
 } 
 
@@ -1242,7 +1242,7 @@ a {
   .pod_box {
     margin: 0px 5px 20px 15px;
     width: 300px;
-    height: 610px
+    height: 575px
   }
 } 
 
@@ -1250,7 +1250,7 @@ a {
   .pod_box {
     margin: 0px 5px 20px 10px;
     width: 285px;
-    height: 635px
+    height: 575px
   }
 } 
 
@@ -1280,26 +1280,27 @@ left: 0;
 }
 
 #ref_pod {
-  color: silver;
-  text-decoration: none;
-  display: inline-block;
-  position: relative;
-  margin-bottom: 10px;
-  }
-  
-  #ref_pod:after {    
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: silver;
-  transition: width 0.3s ease 0.05s, left 0.3s ease 0.05s;
-  width: 0;
-  }
-  #ref_pod:hover:after { 
-  width: 100%; 
-  left: 0; 
-  }
+color: silver;
+text-decoration: none;
+display: inline-block;
+position: relative;
+margin-bottom: 10px;
+}
+
+#ref_pod:after {    
+background: none repeat scroll 0 0 transparent;
+bottom: 0;
+content: "";
+display: block;
+height: 2px;
+left: 50%;
+position: absolute;
+background: silver;
+transition: width 0.3s ease 0.05s, left 0.3s ease 0.05s;
+width: 0;
+}
+#ref_pod:hover:after { 
+width: 100%; 
+left: 0; 
+}
+
